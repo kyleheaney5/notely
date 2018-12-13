@@ -1,0 +1,30 @@
+html, body{
+  height:100%;
+}
+.main{
+  min-height:100%;
+  background:#3498db;
+}
+.main{
+  color:#ecf0f1;
+}
+footer{
+  padding-top:40px;
+  padding-bottom:40px;
+  width:100%;
+}
+#notebody{
+  margin-top:5px;
+  margin-bottom:15px;
+  height:200px;
+}
+#createnote, #recentnotes{
+  text-transform: uppercase;
+  font-family:arial;
+  font-weight:lighter;
+}
+.code{
+  margin-top:30px;
+  margin-left:15px;
+  margin-right:15px;
+}
