@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+
+  notely:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kyleheaney5/notely:dev
+    container_name: notely
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
